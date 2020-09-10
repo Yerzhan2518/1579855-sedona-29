@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Yerzhan Yesbolov](https://up.htmlacademy.ru/htmlcss/29/user/1579855).
-* Наставник: `Неизвестно`.
+* Наставник:[Анна Лисененкова](https://htmlacademy.ru/profile/id85590).
 
 ---
 
