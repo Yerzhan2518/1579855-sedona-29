@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Hotels</title>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic;display=swap">
+  <link href="normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -37,12 +41,11 @@
   </section>
   <section>
     <h2>Стоимость в сутки (Р):</h2>
-    <fieldset>
-      <output name="sum">От 0 До 3000</output>
-    </fieldset>
-      <input type="range" name="price" min="0" max="3000">
-      <button type="submit" value="Показать">Показать</button>
-
+    <p>
+      <input type="text" value="От 0 до 3000">
+    </p>
+    <input type="range" name="price" min="0" max="3000">
+    <button type="submit" value="Показать">Показать</button>
   </section>
   <section>
     <h2>Фильтр</h2>
@@ -111,11 +114,10 @@
       </li>
     </ul>
   </section>
-  <p>
-    Разработано:
+  <section>
+    <h2>Разработано</h2>
     <a href="https://htmlacademy.ru">HTML Academy</a>
-  </p>
+  </section>
 </footer>
-
 </body>
 </html>
